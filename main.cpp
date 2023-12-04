@@ -18,11 +18,11 @@ int main(){
                     // на которой это произошло
             std::cout << std::endl << "Overflow of the bit grid at the "<< i+1 << "th iteration";
             // Заканчиваем цикл
-            break;
+            break;  
         }
         // Выводим число
         std::cout << c << " ";
     }
     std::cout << std::endl;
     return 0;
-}
+}   
